@@ -13,7 +13,7 @@
 -- std::string traceFile = "/home/yucel/ns-allinone-3.41/ns-3.41/scratch/ns2mobility.tcl";
 Make this part suitable for you.
 ### 6.Step
--- Paste Script.txt into the terminal. Before doing this make sure you are in the folder where ns3 is installed
+-- Paste ##Script.txt into the terminal. Before doing this make sure you are in the folder where ns3 is installed
 ### İnformation
 Read rapor.pdf for more information. Since this part(rapor) is in Turkish, we think it will be easier to understand.
 
