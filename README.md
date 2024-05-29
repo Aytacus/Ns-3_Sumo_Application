@@ -17,7 +17,7 @@ Make this part suitable for you.
 ### İnformation
 Read rapor.pdf for more information. Since this part(rapor) is in Turkish, we think it will be easier to understand.
 ### Another Information
--- Experiments folder by konuma göre text It talks about preparing the add vector part of the Content of the code from (1000,0,0) to (2500,2500,2500).
+-- Experiments folder by konuma göre text It talks about preparing the add vector part of the Content of the code from (1000,0,0) to (2500,2500,2500).\n
 -- allocator->Add(Vector(1000,0,0)); ( lastchance.cc) ( It explains what happens when this command changes.)( KonumagöreAppPeriods vs AppPeriods and KonumagörenDevices vs nDevices)
 -- For detail: read the rapor.pdf
 ## Contact me
