@@ -1,0 +1,25 @@
+script="scratch/lastchance"
+
+nDevices=50    # Change from 50 to 200
+nGateways=1    # Not Change!!!
+appPeriodSeconds=20   # Change from 10 to 100 (10,20,50,100)
+
+
+folder="scratch/experiments/Test_${nDevices}_${nGateways}_${appPeriodSeconds}/run"
+
+
+echo -n "Running experiments: "
+
+for r in `seq 1 30`;
+
+do
+
+  echo -n " $r"
+
+  mkdir -p $folder${r}
+
+	./ns3 run "$script --RngRun=$r --nDevices=$nDevices --nGateways=$nGateways --appPeriodSeconds=$appPeriodSeconds --OutputFolder=${folder}${r}" > "$folder${r}/log.txt" 2>&1
+
+done
+
+echo " END"
