@@ -21,7 +21,6 @@ Read rapor.pdf for more information. Since this part(rapor) is in Turkish, we th
 ### Adding
 -- allocator->Add(Vector(1000,0,0)); ( lastchance.cc) ( It explains what happens when this command changes.)( KonumagöreAppPeriods vs AppPeriods and KonumagörenDevices vs nDevices)
 -- For detail: read the rapor.pdf
-## Contact me
--- email: akgunyucel45@gmail.com
+
 
 
